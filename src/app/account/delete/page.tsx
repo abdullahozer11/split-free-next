@@ -1,5 +1,5 @@
 "use client"
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { createClient } from '@supabase/supabase-js';
 
 const supabaseUrl = 'https://qpummxvizckytrrsiaig.supabase.co';
@@ -12,7 +12,7 @@ export default function DeleteAccount() {
   const [confirmation, setConfirmation] = useState(false);
   const [verif, setVerif] = useState('');
 
-  const handleSubmit = async (event) => {
+  const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
 
     if (confirmation && verif === "Delete account data permanently") {
@@ -89,7 +89,7 @@ export default function DeleteAccount() {
                 </label>
               </div>
               <div>
-                <label htmlFor="verif" className="block text-sm font-medium text-gray-300">{'Type "Delete account data permanently"'}</label>
+                <label htmlFor="verif" className="block text-sm font-medium text-gray-300">Type &quot;Delete account data permanently&quot;</label>
                 <input
                   type="text"
                   id="verif"
