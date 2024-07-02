@@ -9,7 +9,7 @@ export default function PrivacyPolicy() {
           <main className="mt-10 space-y-10">
             <section>
               <p>
-                Welcome to SplitFree! This Privacy Policy outlines how we collect, use, and protect your personal data when you use the SplitFree application (the "App") created and maintained by Abdullah OZER, an individual residing in Paris, France.
+                Welcome to SplitFree! This Privacy Policy outlines how we collect, use, and protect your personal data when you use the SplitFree application (the &quot;App&quot;) created and maintained by Abdullah OZER, an individual residing in Paris, France.
               </p>
               <p>
                 By using the App, you agree to the collection and use of information in accordance with this policy. If you do not agree with the terms of this Privacy Policy, please do not use the App.
@@ -23,7 +23,7 @@ export default function PrivacyPolicy() {
                   <strong>Personal Data</strong>: We collect personal data necessary for the functionality of the App, such as your name, email address, and expense details.
                 </li>
                 <li>
-                  <strong>Usage Data</strong>: We may also collect information on how the App is accessed and used. This data may include information such as your device's Internet Protocol (IP) address, browser type, and version, the pages of our App that you visit, the time and date of your visit, and other diagnostic data.
+                  <strong>Usage Data</strong>: We may also collect information on how the App is accessed and used. This data may include information such as your device&#39;s Internet Protocol (IP) address, browser type, and version, the pages of our App that you visit, the time and date of your visit, and other diagnostic data.
                 </li>
               </ul>
             </section>
@@ -56,7 +56,7 @@ export default function PrivacyPolicy() {
               <h2 className="text-2xl font-semibold">Use of Data</h2>
               <ul className="mt-4 list-disc list-inside space-y-2">
                 <li>
-                  <strong>Purpose</strong>: The data collected is used solely to provide and improve the App's services. We do not use your data for commercial purposes.
+                  <strong>Purpose</strong>: The data collected is used solely to provide and improve the App&#39;s services. We do not use your data for commercial purposes.
                 </li>
                 <li>
                   <strong>Service Improvement</strong>: We analyze the data to better understand user behavior and to enhance the functionality of the App.
@@ -86,7 +86,7 @@ export default function PrivacyPolicy() {
             </section>
 
             <section>
-              <h2 className="text-2xl font-semibold">Children's Privacy</h2>
+              <h2 className="text-2xl font-semibold">Children&#39;s Privacy</h2>
               <ul className="mt-4 list-disc list-inside space-y-2">
                 <li>
                   <strong>Under 13</strong>: Our App is not intended for use by children under the age of 13. We do not knowingly collect personally identifiable information from children under 13. If you are a parent or guardian and you are aware that your child has provided us with personal data, please contact us.
