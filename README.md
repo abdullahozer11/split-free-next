@@ -1,4 +1,35 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# SplitFree
+https://splitfree.xyz
+
+<a href="https://splitfree.xyz"><img src="https://i.ibb.co/fvs0KY2/splitfree-xyz.png" alt="Screenshot of website" width="300"/></a>
+
+Welcome to the **SplitFree** app! This app is designed to help you split expenses among friends or groups with ease.
+
+## Download the App
+
+Get SplitFree on Google Play:
+
+<a href="https://play.google.com/store/apps/details?id=xyz.splitfree">
+    <img src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" alt="Download on Google Play" width="400"/>
+</a>
+
+## Privacy Policy
+
+Your privacy is important to us. Please read our [Privacy Policy](https://splitfree.xyz/privacy) to understand how we handle your information.
+
+## Account Deletion
+
+If you wish to delete your account, please fill out the [Account Deletion Form](https://splitfree.xyz/account/delete).
+
+---
+
+Thank you for using SplitFree!
+
+---
+
+# Next.js Project
+
+This is a [Next.js](https://nextjs.org/) project.
 
 ## Getting Started
 
@@ -19,18 +50,3 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
