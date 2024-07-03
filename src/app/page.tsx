@@ -28,7 +28,7 @@ export default function Home() {
           <div className="relative mt-16 h-80 lg:mt-8">
             <img
               className="mx-auto lg:w-[25rem] sm:w-[10rem]"
-              src="https://i.ibb.co/FJYxP8T/Split-Free.png"
+              src="/logo.webp"
               alt="App screenshot"
             />
           </div>

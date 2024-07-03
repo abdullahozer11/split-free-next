@@ -23,7 +23,7 @@ export default function Goodbye() {
             <div className="text-center lg:text-left">
               <img
                 className="mx-auto lg:mx-0 lg:w-40"
-                src="https://i.ibb.co/FJYxP8T/Split-Free.png"
+                src="/logo.webp"
                 alt="App screenshot"
                 width={60}
                 height={60}
