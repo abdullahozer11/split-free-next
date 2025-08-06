@@ -1,0 +1,10 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "xyz.splitfree",
+      "sha256_cert_fingerprints": ["29:E1:42:98:9D:93:89:35:F4:04:D3:1B:53:66:90:EB:32:58:CF:3A:93:C0:DF:EC:10:3F:3F:9E:AC:5B:CC:39"]
+    }
+  }
+]
