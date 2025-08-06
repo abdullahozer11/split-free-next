@@ -1,18 +1,25 @@
 'use client';
 
 import { useSearchParams } from 'next/navigation';
-import { useEffect } from 'react';
+import { useEffect, Suspense } from 'react'; // Add Suspense
 
-export default function JoinPage() {
+// Simple fallback loading component
+function Loading() {
+  return (
+    <div style={{ textAlign: 'center', padding: '20px' }}>
+      <h1>Loading...</h1>
+    </div>
+  );
+}
+
+function JoinContent() {
   const searchParams = useSearchParams();
   const token = searchParams.get('token');
 
   useEffect(() => {
-    // Optional: Brief delay to allow app to open if installed (OS handles primarily)
     const timer = setTimeout(() => {
-      // Redirect to Play Store (Android-focused)
       window.location.href = 'https://play.google.com/store/apps/details?id=xyz.splitfree&hl=fr';
-    }, 2000); // 2 seconds for app to potentially open
+    }, 2000);
 
     return () => clearTimeout(timer);
   }, []);
@@ -25,3 +32,14 @@ export default function JoinPage() {
     </div>
   );
 }
+
+export default function JoinPage() {
+  return (
+    <Suspense fallback={<Loading />}>
+      <JoinContent />
+    </Suspense>
+  );
+}
+
+// Force dynamic rendering to avoid static prerender issues
+export const dynamic = 'force-dynamic';
